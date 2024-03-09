@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  background-color: #f6f6f7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.phone-screen {
+  background-color: #ffffff;
+  width: 360px;
+  height: 720px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.phone-screen-status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+.phone-screen-profile {
+  display: flex;
+  justify-content: center;
+}
+.phone-screen-profile__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.phone-screen-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+.phone-screen-music {
+  display: flex;
+  flex-direction: column;
+}
+.music__list-column {
+  display: flex;
+  align-items: center;
+}
+
+.music__list-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-screen-text__title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.phone-screen-text__subtitle {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.phone-screen-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  margin-bottom: 30px;
+}
+
+.phone-screen-button button {
+  width: 120px;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 25px;
+  border: none;
+}
+
+.phone-screen-button button:first-child {
+  background-color: black;
+  color: white;
+}
+
+.phone-screen-button button:last-child {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.phone-screen-button button:last-child i {
+  color: black;
+}
+.phone-screen-music {
+  display: flex;
+}
+
+.phone-screen-music__list {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 25px;
+  margin: 5px 15px;
+}
+
+.phone-screen-music__list:hover {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.music__list-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.music__list-vertical-ellipsis {
+  color: rgba(0, 0, 0, 0.5);
+}
+.play-musicbar {
+  background-color: black;
+}
+.play-musicbar__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.play-musicbar {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+  padding: 0px 23px;
+  border-radius: 35px;
+}
+
+.play-musicbar__title {
+  color: white;
+}
+
+.play-musicbar__subtitle {
+  color: gray;
+}
+.musicbar-icon {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.phone-screen__main-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.phone-screen__main-cover img {
+  border-radius: 25px;
+  width: 260px;
+  height: 260px;
+}
+
+.phone-screen__main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.phone-screen__main-text h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.phone-screen__main-text span {
+  font-size: 17px;
+}
+
+.playbar-timline {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.timeline-range {
+  display: flex;
+  justify-content: center;
+}
+.timeline-range input {
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 5px;
+}
+.timeline-range input::-webkit-slider-thumb {
+  width: 13px;
+  height: 13px;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.phone-screen__playicons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.phone-screen__playicons i:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.phone-screen__playicons i:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
