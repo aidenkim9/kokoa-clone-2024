@@ -16,21 +16,12 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  border-radius: 15px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
   position: absolute;
   right: -15px;
   top: -25px;
 }
 .nav__alert {
-  display: flex;
+  display: block;
   width: 6px;
   height: 6px;
   background-color: tomato;
